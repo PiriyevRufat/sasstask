@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  list-style: none; }
+
+.btnprimary {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #ff7c5b;
+  color: #fff; }
+
+header {
+  height: 870px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp); }
+
+.fullheader {
+  font-family: "Jost", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  border-bottom: 1px solid white; }
+  .fullheader__leftside {
+    display: flex;
+    align-items: center;
+    margin-left: 280px; }
+  .fullheader__middlepart {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; }
+    .fullheader__middlepart__leftul__menufirst {
+      display: flex;
+      gap: 25px; }
+      .fullheader__middlepart__leftul__menufirst a {
+        display: flex;
+        color: #fff; }
+        .fullheader__middlepart__leftul__menufirst a .fa-plus {
+          margin-left: 5px;
+          margin-top: 3px;
+          font-size: 10px; }
+    .fullheader__middlepart__baselogo {
+      display: flex;
+      align-items: center;
+      margin-top: -15px;
+      margin-left: 100px;
+      margin-right: 100px; }
+    .fullheader__middlepart__rightul__menusecond {
+      display: flex;
+      gap: 25px; }
+      .fullheader__middlepart__rightul__menusecond a {
+        display: flex;
+        color: #fff; }
+        .fullheader__middlepart__rightul__menusecond a .fa-plus {
+          margin-left: 5px;
+          margin-top: 3px;
+          font-size: 10px; }
+  .fullheader__rightside {
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center; }
+    .fullheader__rightside__shopbaglogo {
+      display: flex;
+      color: #fff; }
+      .fullheader__rightside__shopbaglogo p {
+        margin-left: 15px;
+        padding-top: 5px; }
+    .fullheader__rightside__userlogo {
+      display: flex;
+      width: 48px;
+      height: 48px;
+      background-color: #ff7c5b;
+      margin-left: 35px;
+      padding-top: 3px;
+      margin-bottom: 3px;
+      display: flex;
+      color: #fff;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center; }
+  .fullheader__herosection {
+    padding-top: 260px;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .fullheader__herosection__bigbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      max-width: 1000px;
+      padding-right: 5rem;
+      padding-left: 5rem; }
+      .fullheader__herosection__bigbox__texto h1 {
+        color: #fff;
+        font-size: 80px;
+        font-family: serif;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+        text-shadow: rgba(255, 255, 255, 0.6) -2px 2px 30px; }
+      .fullheader__herosection__bigbox__texto__paragraphe {
+        margin-left: 150px;
+        margin-right: 150px; }
+        .fullheader__herosection__bigbox__texto__paragraphe p {
+          color: #fff;
+          font-family: "Jost", sans-serif;
+          font-size: 25px;
+          padding-top: 16px;
+          line-height: 1.7; }
+      .fullheader__herosection__bigbox__tourismform {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem; }
+        .fullheader__herosection__bigbox__tourismform__left {
+          color: #ff7c5b;
+          border: 1px solid #ff7c5b;
+          background-color: transparent;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem; }
+        .fullheader__herosection__bigbox__tourismform__middle {
+          color: #ff7c5b;
+          border: 1px solid #ff7c5b;
+          background-color: transparent;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem; }
+        .fullheader__herosection__bigbox__tourismform__right {
+          color: #ff7c5b;
+          border: 1px solid #ff7c5b;
+          background-color: transparent;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem; }
+        .fullheader__herosection__bigbox__tourismform button {
+          color: #fff;
+          border: 1px solid #ff7c5b;
+          background-color: #ff7c5b;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 2.5rem;
+          padding-right: 2.5rem; }
+
+.threetravel {
+  padding-top: 120px; }
+  .threetravel__travelcategory__contain {
+    max-width: 1400px;
+    padding-right: 5rem;
+    padding-left: 5rem; }
+    .threetravel__travelcategory__contain__upper {
+      display: flex;
+      justify-content: space-between; }
+      .threetravel__travelcategory__contain__upper__heading h5 {
+        font-size: 24px;
+        color: #ff7c5b;
+        margin-bottom: 4px; }
+      .threetravel__travelcategory__contain__upper__arrows {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px; }
+
+.d-flex {
+  display: flex; }

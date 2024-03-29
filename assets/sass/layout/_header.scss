@@ -1,0 +1,195 @@
+header{
+    height: 870px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp);
+}
+.fullheader{
+    font-family: $primefont;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom:1px solid white ;
+    &__leftside{
+        display: flex;
+        align-items: center;
+        margin-left: 280px;
+    }
+    &__middlepart{
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        &__leftul{
+            &__menufirst{
+                display: flex;
+                gap: 25px;
+                a{
+                    display: flex;
+                    color: $white;
+                    .fa-plus{
+                        margin-left: 5px;
+                        margin-top: 3px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        &__baselogo{
+            display: flex;
+            align-items: center;
+            margin-top: -15px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        &__rightul{
+            &__menusecond{
+                display: flex;
+                gap: 25px;
+                a{
+                    display: flex;
+                    color: $white;
+                    .fa-plus{
+                        margin-left: 5px;
+                        margin-top: 3px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    &__rightside{
+        display: flex;
+        margin-left: 150px;
+        align-items: center;
+        justify-content: center;
+        &__shopbaglogo{
+            display: flex;
+            color: $white;
+            p{
+              margin-left: 15px;
+              padding-top: 5px;
+            }
+        }
+        &__userlogo{
+            display: flex;
+            width: 48px;
+            height: 48px;
+            background-color: $primary;
+            margin-left: 35px;
+            padding-top: 3px;
+            margin-bottom: 3px;
+            display: flex;
+            color: $white;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__herosection{
+        padding-top: 260px;
+        padding-bottom: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__bigbox{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 1000px;
+            padding-right: 5rem;
+            padding-left: 5rem;
+            &__texto{
+                h1{
+                    color: $white;
+                    font-size: 80px;
+                    font-family: $secondaryfont;
+                    color: transparent;
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: white;
+                    text-shadow: hsla(0, 0%, 100%, 0.6) -2px 2px 30px;
+                }
+                &__paragraphe{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                    p{ color: $white;
+                        font-family: $primefont;
+                        font-size: 25px;
+                        padding-top: 16px;
+                        line-height: 1.7;
+                    } 
+                }
+            }
+            &__tourismform{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5rem;
+                &__left{
+                    color: $primary;
+                    border: 1px solid $primary;
+                    background-color: transparent;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                }
+                &__middle{
+                    color: $primary;
+                    border: 1px solid $primary;
+                    background-color: transparent;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                }
+                &__right{
+                    color: $primary;
+                    border: 1px solid $primary;
+                    background-color: transparent;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                }
+                button{
+                    color: $white;
+                    border: 1px solid $primary;
+                    background-color: $primary;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                }
+            }
+        }
+    }
+}
+.threetravel{
+    padding-top: 120px;
+    &__travelcategory{
+        &__contain{
+            max-width: 1400px;
+            padding-right: 5rem;
+            padding-left: 5rem;
+            &__upper{
+                display: flex;
+                justify-content: space-between;
+                &__heading{
+                    h5{
+                        font-size: 24px;
+                        color: $primary;
+                        margin-bottom: 4px;
+                    }
+                    h2{         
+                    }
+                }
+                &__arrows{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
