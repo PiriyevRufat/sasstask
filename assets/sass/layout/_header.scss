@@ -169,9 +169,54 @@ header{
     padding-top: 120px;
     &__travelcategory{
         &__contain{
-            max-width: 1400px;
-            padding-right: 5rem;
-            padding-left: 5rem;
+            max-width: 65%;
+            margin: 0 auto;
+            align-items: center;
+            &__button{
+                text-align: center;
+                margin-top: 3.5rem;
+                a{
+                    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: $primary;
+    color: $white;
+                }
+            }
+            &__places{
+                width: 100%;
+                margin: 0 auto;
+                justify-content: space-between;
+                &__swiping{
+                    display: flex;
+                    justify-content: space-between;
+                    &__blok{
+                        width: 33,3333%;
+                        &__lowercase{
+                            margin-top: 24px;
+                        }
+                        h3{
+                            margin-top: 24px;
+                            font-size: 22px;
+                        }
+                        ul{
+                            margin-top: 20px;
+                            display: flex;
+                            margin-bottom: 24px;
+                            li{
+                                margin-right: 20px;
+                            }
+                        }
+                        &__upper{
+                            width: 380px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
             &__upper{
                 display: flex;
                 justify-content: space-between;
@@ -181,15 +226,64 @@ header{
                         color: $primary;
                         margin-bottom: 4px;
                     }
-                    h2{         
+                    h2{
+                        padding-bottom: 60px;      
                     }
                 }
                 &__arrows{
                     display: flex;
                     justify-content: space-between;
                     gap: 10px;
+                    svg{
+                        color: $primary;
+                        font-size: 16px;
+                    }
                 }
             }
         }
+    }
+}
+.attrdstn{
+    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff5e7;
+    &__contain{
+        max-width: 65%;
+            margin: 0 auto;
+            align-items: center;
+        &__heading{
+            text-align: center;
+            padding-bottom: 60px;
+            h5{
+                margin-bottom: 14px;
+                color: $primary;
+                font-size: 24px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            &__travl{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                &__pic{
+                    text-align: center;
+                    a{
+                        background-color: $white;
+                    }
+                    h5{
+                        margin-top: 28px;
+                        font-size: 22px;
+                    }
+                    p{
+                        color: $primary;
+                        margin-top: 8px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
     }
 }
